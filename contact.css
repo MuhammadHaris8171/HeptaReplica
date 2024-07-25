@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pg1{
+    height: 80vh;
+    /* border: 0.001px solid blueviolet; */
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('hero_4.jpeg');
+    background-position: center center;
+}
+header{
+    padding-top: 5vh;
+}
+header ul{
+    float: right;
+    display: flex;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    /* margin-right: 20px ; */
+}
+header ul{
+    margin-right: 50px;
+}
+header a{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.pg1 h1{
+    color: white;
+    font-size: 10vh;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 12vh;
+}
+.pg1 p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.pg1 p a{
+    color: rgba(128, 128, 128, 0.336);
+    text-decoration: none;
+}
+.pg1 p a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+.pg2{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 90%;
+    height: 100vh;
+    margin-left: 10vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.pg21{
+    /* border: 2px solid blue; */
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 50px;
+    box-shadow: 0px 0px 10px grey;
+}
+.pg22{
+    /* border: 2px solid black; */
+    width: 35%;
+    margin-left: 15vh;
+}
+.pg22 h4{
+    color: lightseagreen;
+}
+.pg22 h1{
+    line-height: 1.5;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.pg23{
+    width: 50%;
+}
+.pg23 input{
+    height: 40px;
+    border: 2px solid gray;
+}
+.pg23 input::selection {
+    padding: 6px 12px;
+    background-color: lightseagreen;
+}
+.pg24{
+    width: 50%;
+}
+.pg24 p{
+
+}
+.pg24 input{
+    height: 40px;
+}
+.pg25{
+    width: 100%;
+    margin-top: 30px
+}
+.pg25 p{
+
+}
+.pg25 input{
+    height: 40px;
+    margin-top: 20px;
+}
+.pg26{
+    width: 100%;
+    margin-top: 30px;
+}
+.pg26 textarea{
+    margin-top: 20px;
+}
+.pg27{
+    margin-bottom: auto;
+}
+.pg2 button{
+    background-color: white;
+    border: 2px solid lightseagreen;
+    padding: 10px;
+    width: 20vh;
+    border-radius: 5%;
+}
+.pg2 button:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+.pg31{
+    display: flex;
+    margin-left: 12vh;
+    margin-right: 10px;
+    width: 90%;
+}
+.pg3 h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+.pg3{
+    margin-top: 30vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-color: rgba(128, 128, 128, 0.089);
+}
+.pg31 img{
+    width: 60px;
+    border-radius: 50%;
+}
+.pg32{
+    width: 30%;
+    margin-right: 20px;
+}
+.pg32 p{    
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pg32 sub{
+    color: grey;
+    font-size: 18px;
+}
+footer {
+    /* border: 2px solid tan; */
+    margin-top: 20vh;
+    height: 140vh;
+  
+    background-color: rgb(36, 35, 35)
+  }
+  
+  .pg88 {
+    display: flex;
+  }
+  
+  .pg8 {
+    display: flex;
+    height: 50vh;
+    width: 30vh;
+    /* border: 2px solid springgreen; */
+    margin-left: 15vh;
+    margin-top: 17vh;
+  }
+  
+  .pg8 ul {
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    line-height: 2.5;
+  
+    /* color: darkcyan; */
+  }
+  
+  .pg8 h3 {
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .pg8 ul a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  .pg81 h3 {
+    /* font-weight: bolder; */
+    /* border: 2px solid teal; */
+  }
+  
+  .pg81 em {
+    color: white;
+  }
+  
+  .pg81 {
+    /* border: 2px solid khaki; */
+    margin-top: 20px;
+    /* width: 40vh; */
+    line-height: 2;
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .pg84 {
+    margin-left: 12vh;
+  }
+  
+  #pg82 h3 {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  #pg83 h3 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  #pg83 p {
+    color: grey;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #pg83 input {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  footer hr {
+    display: block;
+  }
+  
+  .pg87 {
+    margin-top: 10vh;
+  }
+  
+  footer hr {
+    width: 90%;
+    margin-left: 10vh;
+    margin-top: 30vh;
+    color: grey;
+    size: 0;
+    border: 0.1px solid grey;
+  }
+  
+  .pg87 {
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .pg89 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .pg89 a {
+    padding: 10px;
+    color: grey;
+    font-size: 20px;
+    text-decoration:  none;
+  }
+  
+  

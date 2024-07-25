@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    /* margin: 150px 400px; */
+    text-align: center;
+    font-size: 90px;
+    white-space: nowrap;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    color: #fff
+}
+
+#temp {
+    text-align: center;
+    color: #fffffffb;
+    font-size: 25px;
+}
+#temp a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+#ref1 {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    /* border: 2px solid red; */
+    margin-left: 30px;
+    /* margin-bottom: 300px; */
+}
+header {
+    padding-top: 50px;
+
+}
+
+.ful {
+    list-style-type: none;
+    /* margin-bottom: 30px; */
+    /* margin-left: 100px; */
+}
+
+.fil li{
+    margin-bottom: 39px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#imges {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url("hero_1.jpeg");
+     width: 100%;
+    height: 750px; 
+    background-position: center center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    /* border: 2px solid salmon; */
+}
+.ful {
+    /* border: 2px solid seashell; */
+    /* padding: 30px; */
+}
+
+#tour {
+    text-align: center;
+    margin-top: 80px;
+}
+#tour :hover{
+    background-color: #fff;
+}
+#tour a {
+    border-color: white;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 10px;
+}
+header ul{
+    display: flex;
+    float: right;
+    margin-left: 100vh;
+}
+.ful li{
+    padding-left: 20px;
+    font-size: 20px;
+}
+#pg2 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 10vh;
+    margin-bottom: 25vh;
+}
+
+#pg21,
+#pg22 {
+    flex: 1;
+    width: 50%;
+}
+
+#pg21 img {
+    width: 550px;
+    height: 700px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+#pg22 {
+    margin-top: 300px;
+}
+
+#pg22 strong {
+    font-size: 30px;
+}
+
+#pg22 p {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+    margin-right: 70px;
+}
+
+#pg22 a {
+    color: cornflowerblue;
+}
+
+#pg22 a:hover {
+    color: blue;
+}
+#pg3{
+    height: 800px;
+}
+#pg31 strong {
+    font-size: 30px;
+}
+
+#pg31 {
+    text-align: center;
+    /* padding: 400px 10px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#pg31 strong {
+    font-size: 30px;
+    /* padding: 30PX 0PX; */
+    /* border: 2px solid red; */
+    
+}
+
+#pg31 p {
+    margin-right: 260px;
+    margin-left: 260px;
+    font-size: 20px;
+}
+.myFood{
+    font-size: 30px;
+}
+.myBus{
+    font-size: 20px;
+}
+.pg33 {
+    text-align: center;
+    padding: 20px 20px;
+
+    /* border: 2px solid blue; */
+}
+
+#pg3 {
+    /* margin-top: 50px; */
+    background-color: rgb(238, 238, 228);
+}
+#pg32{
+    width: 80%;
+    margin-left: 15vh;
+}
+#pg4 {
+    height: 500px;
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 3px grey;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    position: absolute;
+}
+
+.nav {
+    text-align: center;
+    /* position: relative; */
+    
+}
+
+.nav button {
+    font-size: 25px;
+    padding: 5px;
+    
+}
+#button1{
+    position: absolute;
+    left: 10%;
+    /* border: 2px solid red; */
+    top: 490%;
+}
+#button2{
+    position: absolute;
+    right: 10%;
+    /* border: 2px solid red; */
+    top: 490%;
+}
+#pg5 {
+    background-color: rgb(43, 206, 138);
+    margin-top: 30vh;
+}
+
+#pg51 {
+    text-align: center;
+    margin: 10px 200px;
+
+}
+
+#pg51 strong {
+    font-size: 60px;
+}
+
+#pg52 {
+    text-align: center;
+    margin: 10px 25px;
+    font-size: 20px;
+
+}
+
+#pg52 p {
+    padding: 10px 50px 10px;
+}
+
+.pg541 {
+    display: flex;
+    /* border: 2px solid black;   */
+    margin-left: 100px;
+}
+
+.myimg1 {
+    /* width: 330px;
+height: 221px; */
+    max-width: 100%;
+    /* height: ; */
+
+    /* object-fit: fill; */
+
+}
+
+.pg53 {
+    /* border: 2px solid red; */
+    width: 33%;
+    /* padding: 10px; */
+    margin: 10px 10px;
+    background-color: #fff;
+    width: 300px;
+    margin: 25px;
+    /* padding: 10px; */
+    display: inline-block;
+    /* object-fit: fill; */
+}
+
+.pg542 {
+    color: crimson;
+    margin-top: 10vh;
+    /* border: 2px solid gree/n; */
+    padding-bottom: 0px;
+}
+.myCar{
+    padding: 50px 0px;
+    /* border: 2px solid green; */
+}
+.pg53 a {
+    margin-left: 20px;
+    color: black;
+    font-weight: 1000;
+    font-size: 20px;
+}
+#pg5{
+    padding-left: 8 0px;
+}
+.pg53 p {
+    font-size: large;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* border: 2px solid blue; */
+}
+#pg6{
+    height: 700px;
+}
+.pg61 {
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 10px 10px;
+    /* margin-left: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+    margin: 0px 70px;
+}
+
+.pg62 {
+    float: left;
+    display: block;
+    padding: 30px 20px;
+    /* border: 2px  dotted black; */
+    font-size: 20px;
+}
+
+.pg62 img {
+    max-width: 80px;
+    /* display: block; */
+    border-radius: 50px;
+    padding: 10px 0px;
+}
+
+#pg6 h3 {
+    margin-top: 100px;
+    font-size: 70px;
+    text-align: center;
+}
+
+#pg7 {
+    margin-bottom: 100px;
+}
+
+#pg7 h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#pg7 p {
+    /* text-align: center; */
+    margin: 10px 300px;
+    /* border: 2px solid red; */
+    font-size: 25px;
+    color: slategrey;
+}
+
+#pg71 {
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 0px 40px;
+    padding-left: 50px;
+}
+
+#pg71 img {
+    max-width: 250px;
+    max-height: 200px;
+    /* border: 2px solid blue; */
+    display: block;
+    /* size: 40px; */
+    margin: 0px 10px;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+.pg72 {
+    /* border: 2px solid red; */
+    /* text-align: left; */
+}
+
+.pg72 strong {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    /* border: 2px dotted rebeccapurple; */
+}
+
+.mystar {
+    color: yellow;
+}
+
+.pg72 a {
+    color: black;
+    /* border: 2px  solid green; */
+}
+
+.pg73 {
+    margin-left: 10px;
+    display: inline;
+    /* border: 2px solid red; */
+}
+
+.pg74 {
+    /* border: 2px dotted black; */
+    float: right;
+    margin-right: 20px;
+}
+footer {
+    /* border: 2px solid tan; */
+    margin-top: 20vh;
+    height: 140vh;
+  
+    background-color: rgb(36, 35, 35)
+  }
+  
+  .pg88 {
+    display: flex;
+  }
+  
+  .pg8 {
+    display: flex;
+    height: 50vh;
+    width: 30vh;
+    /* border: 2px solid springgreen; */
+    margin-left: 15vh;
+    margin-top: 17vh;
+  }
+  
+  .pg8 ul {
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    line-height: 2.5;
+  
+    /* color: darkcyan; */
+  }
+  
+  .pg8 h3 {
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .pg8 ul a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  .pg81 h3 {
+    /* font-weight: bolder; */
+    border: 2px solid teal;
+  }
+  
+  .pg81 em {
+    color: white;
+  }
+  
+  .pg81 {
+    /* border: 2px solid khaki; */
+    margin-top: 20px;
+    width: 40vh;
+    line-height: 2;
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .pg84 {
+    margin-left: 12vh;
+  }
+  
+  #pg82 h3 {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  #pg83 h3 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  #pg83 p {
+    color: grey;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #pg83 input {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  footer hr {
+    display: block;
+  }
+  
+  .pg87 {
+    margin-top: 10vh;
+  }
+  
+  footer hr {
+    width: 90%;
+    margin-left: 10vh;
+    margin-top: 30vh;
+    color: grey;
+    size: 0;
+    border: 0.1px solid grey;
+  }
+  
+  .pg87 {
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .pg89 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .pg89 a {
+    padding: 10px;
+    color: grey;
+  }
+  /* .pg101 h1{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    width: 50%;
+    /* overflow: hidden; */
+    
+    
+  /* } */
+  /* .pg101 p{ */
+    /* text-align: center; */
+/*  */
+  /* } */ 
+  .pg101{
+    word-wrap: break-word;
+    /* text-align: center; */
+    overflow-wrap: break-word;
+    /* border: 2px solid red; */
+    width: 50%;
+    /* margin-left: 40vh;/ */
+    text-align: center; /* Centers the content inside the div */
+    max-width: 80%;
+    height: 40vh;
+    margin-top: 0px;
+  }
+  .pg100 {
+    display: flex;
+    /* border: 2px solid indigo; */
+    justify-content: center;
+    margin-top: 10px;
+    /* align-items: center; */
+    height: 40vh; /* Ensures the container takes up the full viewport height */
+}
+
+.pg101 h1{
+    font-size: 50px;
+    color: black;
+}
+.pg101 p{
+    font-size: 20px;
+}
