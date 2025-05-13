@@ -1081,3 +1081,141 @@ line-height: 1.5rem;
     gap: 1rem;
     font-weight: 100;
 }
+
+@media all and (max-width:800px) {
+    #pg2{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        /* margin: 0;
+        padding: 0; */
+        gap: 0;
+    }
+    #pg21{
+        width: 100%;
+        /* border: 2px solid blue; */
+        margin: 0;
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+    #pg21 img{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+    }
+    #pg22{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #pg31 p{
+        margin: 0;
+        padding: 0;
+    }
+    .pg33{
+        /* border: 2px solid red; */
+        /* width: 10vw !important; */
+        padding: 0;
+    }
+    #pg33 img{
+        /* width: 10vw !important; */
+    }
+    #pg32{
+        /* border: 2px solid blue; */
+        margin: 0;
+        width: 100%;
+    }
+    .nav{
+        top: -13%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+    }
+    #pg4{
+        position: relative;
+        
+        /* border: 2px solid red; */
+        /* height: 70vh; */
+    }
+    .pg101{
+        width: 100%;
+    }
+    .slide{
+        /* width: 90%;
+        height: 90%; */
+    }
+    #pg5{
+        /* border: 2px solid blue; */
+        padding: 0;
+        margin-top: 20vh;
+    }
+    #pg51{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin: 0;
+    }
+    .pg541{
+        /* border: 2px solid red; */
+        margin: 0;
+    }
+    .pg53{
+        /* border: 2px solid blue; */
+        height: auto;
+        padding: 0rem 1rem;
+    }
+.pg542{
+    margin: 0 !important;
+    padding: 0;
+    /* border: 2px solid blue; */
+}
+    .pg53 a{
+        margin: 0;
+        padding: 0 ;
+        /* border: 2px solid green; */
+    }
+    .pg53 p{
+        margin: 1rem 0rem;
+        padding: 0;
+    }
+    .myimg1{
+        filter: drop-shadow(0rem 0rem 0.2rem black);
+        margin-bottom: 0.5rem;
+    }
+    #pg7 p{
+        width: 80%;
+        margin: 1rem 12%;
+    }
+    #pg71{
+        /* border: 2px solid blue; */
+        width: 99%;
+        margin: 0;
+    }
+    .pg72{
+        /* border: 2px solid black; */
+        width: 50%;
+    }
+    .pg72 img{
+        object-fit: cover;
+        height: 50%;
+        width: 90%;
+    }
+    .pg72 strong{
+        font-size: 0.7rem;
+    }
+    .pg73{
+        /* border: 2px solid saddlebrown; */
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        /* gap: 0.1rem; */
+    }
+    .pg74{
+        /* border: 2px solid sandybrown; */
+        width: 100%;
+    }
+}
