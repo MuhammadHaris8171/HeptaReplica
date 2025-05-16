@@ -1281,14 +1281,44 @@ line-height: 1.5rem;
         position: absolute;
     }  
     .pg53{
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         display: block;
-        width: 100vw !important;
+        width: 50vw;
+        height: fit-content;
         margin: 0;
-        padding: 0;
+        padding: 0 1rem;
+    }
+    .pg53 img{
+         width: 100%;
     }
     .pg541{
-        border: 2px solid red;
-
+        /* border: 2px solid red; */
+        height: auto;
+        gap: 1rem;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #pg5{
+        height: auto;
+    }
+    #pg6{
+        /* border: 2px solid blue; */
+        height: auto;
+    }
+    .pg61{
+        /* border: 2px solid red; */
+        flex-wrap: wrap;
+    }
+    .pg62{
+        /* border: 2px solid green; */
+    }
+    #pg71{
+        /* border: 2px solid blue; */
+        flex-wrap: wrap;
+    }
+    .pg73{
+        /* border: 2px solid red; */
+        padding: 0 0.4rem;
     }
 }
