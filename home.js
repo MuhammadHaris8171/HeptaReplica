@@ -67,19 +67,19 @@ function resizeIframe(device) {
             iframe.style.width = "480px";
             // document.querySelector(".ful").style.positionRight="35%";
             if(iframe.style.marginLeft == "0%"){
-                iframe.style.marginLeft = "30%";
+                iframe.style.marginLeft = "0%";
               }
               else{
-                  iframe.style.marginLeft = "30%";
+                  iframe.style.marginLeft = "0%";
               }
             break;
         case "fa-tablet-screen-button":
             iframe.style.width = "768px";
             if(iframe.style.marginLeft == "0%"){
-              iframe.style.marginLeft = "20%";
+              iframe.style.marginLeft = "0%";
             }
             else{
-                iframe.style.marginLeft = "20%";
+                iframe.style.marginLeft = "0%";
             }
             
             break;
