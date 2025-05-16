@@ -1281,10 +1281,14 @@ line-height: 1.5rem;
         position: absolute;
     }  
     .pg53{
-        /* border: 2px solid blue; */
+        border: 2px solid blue;
+        display: block;
+        width: 100vw !important;
+        margin: 0;
+        padding: 0;
     }
     .pg541{
-        /* border: 2px solid red; */
+        border: 2px solid red;
 
     }
 }
